@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px;
+    margin-bottom: 50px;
+    border-bottom: solid #bbbbbb;
+}
+
+.logo{
+    width: 160px;
+    height: 113px;
+}
+
+.name{
+    height: 50px;
+}
+
+.phoneContainer{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+}
+
+.phoneContainer p{
+    margin: 0px;
+}
+
+.phoneLogo{
+    width: 40px;
+    height: 40px;
+}
+
+.clockContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clockLogo{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    align-self: center;
+}
+
+.menu{
+    flex-wrap: wrap;
+    min-height: 40px;
+    margin: 0px 70px 70px 70px;
+    border-bottom: solid #bbbbbb;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu a{
+    margin: 20px;
+}
